@@ -1,0 +1,12 @@
+c = int(input('Enter degree in celcius: '))
+f = ((9*c)/5) + 32
+# print("Fahrenheit: ",f,"F")
+f = int(input('Enter degree in fahrenheit: '))
+c = (f-32)*(5/9)
+# print("Celcius: ",c,"C")
+fh = open("1_temperature.txt","w")
+fh.write("Celcius in Fahrenheit is: ")
+fh.write(str(f))
+fh.write("\nFahrenheit in Celcius is: ")
+fh.write(str(c))
+fh.close()

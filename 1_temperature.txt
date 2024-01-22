@@ -1,0 +1,2 @@
+Celcius in Fahrenheit is: 212
+Fahrenheit in Celcius is: 100.0
